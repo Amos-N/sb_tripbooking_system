@@ -35,7 +35,7 @@ $totalAmount = $transactionsInstance->getTotalTransactionAmount();
             <div class="cards">
                 <div class="card">
                     <div class="box">
-                        <h1><?php echo $totalAmount ?> tk</h1>
+                        <h1><?php echo $totalAmount ?> RM</h1>
                         <h3>Sales</h3>
                     </div>
                     <div class="icon-case">
@@ -71,7 +71,7 @@ $totalAmount = $transactionsInstance->getTotalTransactionAmount();
                                 <tr>
                                     <td>" . $row['username'] . "</td>
                                     <td>" . $row['package_name'] . "</td>
-                                    <td>" . $row['trans_amount'] . " Taka</td>
+                                    <td>" . $row['trans_amount'] . " RM</td>
                                     <td>" . $row['card_type'] . "</td>
                                 </tr>
                                 ";
