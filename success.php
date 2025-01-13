@@ -50,7 +50,7 @@ function smtp_mailer($to, $subject, $msg)
 $val_id = urlencode($_POST['val_id']);
 $store_id = urlencode("rooki64087f61151b1");
 $store_passwd = urlencode("rooki64087f61151b1@ssl");
-$requested_url = ("https://sandbox.sslcommerz.com/validator/api/validationserverAPI.php?val_id=" . $val_id . "&store_id=" . $store_id . "&store_passwd=" . $store_passwd . "&v=1&format=json");
+$requested_url = ( . $val_id . "&store_id=" . $store_id . "&store_passwd=" . $store_passwd . "&v=1&format=json");
 
 $handle = curl_init();
 curl_setopt($handle, CURLOPT_URL, $requested_url);
