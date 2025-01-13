@@ -41,7 +41,7 @@ $full_name = $user['full_name'];
 
 <body>
     <nav id='navBar' class='navbar-white'>
-        <a href='../index.php' class='logo'> triptrip </a>
+        <a href='../index.php' class='logo'> Kampung Sting </a>
         <ul class='nav-links'>
             <li><a href='../index.php'>Popular Places</a></li>
             <li><a href='../listing.php'>All packages</a></li>
