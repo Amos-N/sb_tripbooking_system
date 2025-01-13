@@ -39,14 +39,14 @@
                 <img src="https://i.redd.it/8nweob7bjd001.jpg">
                 <span>
                     <h3>Day Trip</h3>
-                    <p>Starts RM50 </p>
+                    <p>Starts RM100 </p>
                 </span>
             </div>
             <div>
                 <img src="https://4.bp.blogspot.com/-mdhiT5vtA_A/TyZ6nLh1RDI/AAAAAAAAAA0/wPKDcNBcUTM/s1600/sundarban+forest3.jpg">
                 <span>
                     <h3>Overnight</h3>
-                    <p>Starts RM150 </p>
+                    <p>Starts RM200 </p>
                 </span>
             </div>
 
