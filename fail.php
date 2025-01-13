@@ -2,7 +2,7 @@
 <title>Purchase Failed</title>
 
 <body>
-    <h1>Your purchase could not be completed.</h1>
+    <h1>Your purchase is not completed.</h1>
     <p>Redirecting to dashboard in <span class="counter"></span></p>
 
     <script>
