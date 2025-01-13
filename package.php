@@ -69,9 +69,9 @@ if (isset($_SESSION['logged_in'])) {
         if ($row["is_hotel"] == 1) {
             $features .=
                 "<li>
-            <i class='fa-solid fa-hotel'></i>Hotel <br>
+            <i class='fa-solid fa-homestay'></i>Homestay <br>
             <span>
-                Hotel is<strong class='brand-inline brand'>triptrip </strong> verified with excellent
+                Homestay is<strong class='brand-inline brand'>triptrip </strong> verified with excellent
                 customer service.
             </span>
         </li>";
