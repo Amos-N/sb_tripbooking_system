@@ -17,7 +17,7 @@
             <?php include("./components/_navBtns.php") ?>
         </nav>
         <div class="container hero">
-            <h1>Travel Bangladesh Like Never Before</h1>
+            <h1>Borneo's Jurassic Park</h1>
             <div class="search-bar">
                 <form method="post" id="search_form">
                     <div class="location-input">
