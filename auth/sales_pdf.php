@@ -17,7 +17,7 @@ if (!isset($_SESSION["is_admin"])) {
 <?php
 include_once("../app/_dbConnection.php");
 
-date_default_timezone_set("Asia/Dhaka");
+date_default_timezone_set("Asia/Federal Territory of Kuala Lumpur");
 
 if (isset($_GET['param'])) {
     $days = $_GET["param"];
@@ -59,7 +59,7 @@ $user = mysqli_fetch_assoc($res);
                     <div class="col-md-12">
                         <div class="text-center">
                             <i class="fab fa-mdb fa-4x ms-0"></i>
-                            <p class="pt-0 brand">triptrip</p>
+                            <p class="pt-0 brand">Kpg. Sting</p>
                         </div>
 
                     </div>
@@ -105,7 +105,7 @@ $user = mysqli_fetch_assoc($res);
                     </div>
                     <div class="row">
                         <div class="col-xl-8">
-                            <p>All payments are verified by SSL Commerz</p>
+                            <p>payments verified</p>
                         </div>
                         <div class="col-xl-3">
                             <ul class="list-unstyled">
