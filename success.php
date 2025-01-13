@@ -88,7 +88,7 @@ if ($code == 200 && !(curl_errno($handle))) {
     $count = $count + 1;
     $packagesInstance->updatePackagePurchase($package_id, $count);
     $mailHtml = "<div>
-    <h3>You Purchase of Taka <b>" . $amount . "</b> via <b>" . $card_type . "</b> has been successfully confirmed. <br>
+    <h3>You Purchase of RM <b>" . $amount . "</b> via <b>" . $card_type . "</b> has been successfully confirmed. <br>
     <a href='http://localhost/triptrip/auth/user_dashboard.php'>Visit your dashboard</a> to check your purchase confirmation.
     </div>";
     // Undo Comment for sending mail
