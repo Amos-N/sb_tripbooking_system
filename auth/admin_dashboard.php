@@ -86,8 +86,8 @@ $totalAmount = $transactionsInstance->getTotalTransactionAmount();
                                 <tr>
                                     <td>" . $row['username'] . "</td>
                                     <td>" . $row['package_name'] . "</td>
-                                    <td>" . $row['trans_amount'] . " Taka</td>
-                                    <td>" . $row['trans_date'] . " Taka</td>
+                                    <td>" . $row['trans_amount'] . " RM</td>
+                                    <td>" . $row['trans_date'] . " RM</td>
                                 </tr>
                                 ";
                         }
