@@ -38,8 +38,8 @@
             <div>
                 <img src="https://i.redd.it/8nweob7bjd001.jpg">
                 <span>
-                    <h3>Cox's Bazar</h3>
-                    <p>Starts @ 4000 Taka</p>
+                    <h3>Day Trip</h3>
+                    <p>Starts RM50 </p>
                 </span>
             </div>
             <div>
