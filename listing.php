@@ -193,7 +193,7 @@ if (isset($_GET["loc"]) && isset($_GET['g'])) {
                     <p>${package_location}</p>
                     <h3>${package_name}</h3>
                     <p>
-                    ${parseInt(is_hotel) === 1 ? "Hotel / " : ""}
+                    ${parseInt(is_homestay) === 1 ? "Homestay / " : ""}
                     ${parseInt(is_transport) === 1 ? "Transport / " : ""}
                     ${parseInt(is_food) === 1 ? "Food / " : ""}
                     ${parseInt(is_guide) === 1 ? "Tour Guide " : ""}
