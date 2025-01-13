@@ -14,7 +14,7 @@ if (isset($_SESSION["logged_in"])) {
 <body>
     <div class="registration-header">
         <nav id="navBar">
-            <a href="./index.php" class="logo"> triptrip </a>
+            <a href="./index.php" class="logo"> Kampung sting trip </a>
             <ul class="nav-links">
                 <li><a href="./index.php">Popular Places</a></li>
                 <li><a href="./listing.php">All packages</a></li>
