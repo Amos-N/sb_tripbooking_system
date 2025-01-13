@@ -82,7 +82,7 @@ if (isset($_SESSION['logged_in'])) {
                 "<li>
             <i class='fa-solid fa-bus-simple'></i>Transport <br>
             <span>
-                Transportation includes bus tickets from and to " . $row['package_location'] . ".
+                Transportation includes boat ride from and to " . $row['package_location'] . ".
             </span>
         </li>";
         }
@@ -92,7 +92,7 @@ if (isset($_SESSION['logged_in'])) {
                 "<li>
             <i class='fa-solid fa-utensils'></i>Food <br>
             <span>
-                Breakfast and Dinner included in the package.
+                Lunch and Dinner included in the package.
             </span>
         </li>";
         }
@@ -135,7 +135,7 @@ if (isset($_SESSION['logged_in'])) {
         <div class='small-details'>
             <h3>Tour Starts: " . $row["package_start"] . "</h3>
             <h3>Tour Ends: " . $row["package_end"] . "</h3>
-            <h4>" . $row["package_price"] . " Taka / All Inclusive</h4>
+            <h4>" . $row["package_price"] . " RM / All Inclusive</h4>
             <div>
                 <hr class='line'>";
 
