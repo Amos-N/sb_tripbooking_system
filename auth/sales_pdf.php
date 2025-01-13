@@ -109,10 +109,10 @@ $user = mysqli_fetch_assoc($res);
                         </div>
                         <div class="col-xl-3">
                             <ul class="list-unstyled">
-                                <li class="text-muted ms-3"><span class="text-black me-4">SubTotal</span><?php echo $total ?> Taka</li>
-                                <li class="text-muted ms-3 mt-2"><span class="text-black me-4">Tax(0%)</span>0 Taka</li>
+                                <li class="text-muted ms-3"><span class="text-black me-4">SubTotal</span><?php echo $total ?> RM</li>
+                                <li class="text-muted ms-3 mt-2"><span class="text-black me-4">Tax(0%)</span>0 RM</li>
                             </ul>
-                            <p class="text-black float-start"><span class="text-black me-3"> Total Amount</span><span style="font-size: 25px;"><?php echo $total ?></span> Taka</p>
+                            <p class="text-black float-start"><span class="text-black me-3"> Total Amount</span><span style="font-size: 25px;"><?php echo $total ?></span> RM</p>
                         </div>
                     </div>
                     <hr>
